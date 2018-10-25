@@ -3,4 +3,5 @@ project(fraction)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(fraction src/main.cc)
+add_executable(fraction src/main.cc src/fraction.cc)
+include_directories(include/)
